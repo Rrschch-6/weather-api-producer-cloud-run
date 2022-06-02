@@ -1,0 +1,9 @@
+Flask==2.1.2
+requests==2.27.1
+ptvsd==4.3.2 # Required for debugging.
+kafka-python==2.0.2
+fastapi[all]== 0.75.1
+python-dotenv==0.20.0
+requests
+Faker==13.3.4
+pymongo
