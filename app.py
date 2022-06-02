@@ -11,7 +11,7 @@ lon=-94.04
 app = Flask(__name__)
 
 
-@app.route('/',methods=["GET","POST"])
+@app.route('/',methods=["GET"])
 def pyproducer():
     message = "No Post Request Recieved!"
     """Get Cloud Run environment variables."""
